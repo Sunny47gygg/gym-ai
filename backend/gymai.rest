@@ -1,0 +1,75 @@
+### POST /api/signup
+POST http://localhost:5000/api/auth/signup
+Content-Type: application/json
+
+{
+  "name": "Sunny",
+  "email": "test@tes.com",
+  "password": "123456"
+}
+
+### POST /api/login
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "test@tes.com",
+  "password": "123456"
+}
+
+### GET /api/protected
+GET http://localhost:5000/api/protected
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJ0ZXN0QHRlcy5jb20iLCJpYXQiOjE3ODAyNjMyNjMsImV4cCI6MTc4MDg2ODA2M30.r1Zan5LPV1QqujbwoICchDm6adUs0BTmZzcyOm4EtsE
+
+### POST /api/profile
+POST http://localhost:5000/api/profile
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJ0ZXN0QHRlcy5jb20iLCJpYXQiOjE3ODAyNjMyNjMsImV4cCI6MTc4MDg2ODA2M30.r1Zan5LPV1QqujbwoICchDm6adUs0BTmZzcyOm4EtsE
+
+{
+  "age": 22,
+  "gender": "Male",
+  "height_cm": 175,
+  "weight_kg": 70,
+  "activity_level": "Moderately Active",
+  "goal": "Lean Bulk",
+  "target_weight": 76,
+  "experience_level": "Intermediate",
+  "injuries": "",
+  "workout_days": 5,
+  "dietary_preferences": "Vegetarian"
+}
+
+### GET /api/profile
+GET http://localhost:5000/api/profile
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJ0ZXN0QHRlcy5jb20iLCJpYXQiOjE3ODAyNjMyNjMsImV4cCI6MTc4MDg2ODA2M30.r1Zan5LPV1QqujbwoICchDm6adUs0BTmZzcyOm4EtsE
+
+### PUT /api/profile
+PUT http://localhost:5000/api/profile
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJ0ZXN0QHRlcy5jb20iLCJpYXQiOjE3ODAyNjMyNjMsImV4cCI6MTc4MDg2ODA2M30.r1Zan5LPV1QqujbwoICchDm6adUs0BTmZzcyOm4EtsE
+
+{
+  "age": 33,
+  "gender": "Male",
+  "height_cm": 175,
+  "weight_kg": 70,
+  "activity_level": "Moderately Active",
+  "goal": "Lean Bulk",
+  "target_weight": 76,
+  "experience_level": "Intermediate",
+  "injuries": "",
+  "workout_days": 5,
+  "dietary_preferences": "Vegetarian"
+}
+
+### POST /api/workout/generate
+POST http://localhost:5000/api/workout/generate
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJ0ZXN0QHRlcy5jb20iLCJpYXQiOjE3ODAyNjMyNjMsImV4cCI6MTc4MDg2ODA2M30.r1Zan5LPV1QqujbwoICchDm6adUs0BTmZzcyOm4EtsE
+
+{}
+
+### GET /api/workout/plan
+GET http://localhost:5000/api/workout/
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJ0ZXN0QHRlcy5jb20iLCJpYXQiOjE3ODAyNjMyNjMsImV4cCI6MTc4MDg2ODA2M30.r1Zan5LPV1QqujbwoICchDm6adUs0BTmZzcyOm4EtsE
