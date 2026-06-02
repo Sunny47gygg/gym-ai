@@ -10,7 +10,7 @@ function Navbar() {
             <Dumbbell className="text-3xl text-lime-400"/>
             <p className="font-semibold text-xl">RepCoach AI</p>
           </div>
-          <div className="pr-13">
+          <div className="pr-7">
             <Link to="/login" className="mr-9 cursor-pointer text-white hover:text-lime-400">
               Sign In
             </Link>
