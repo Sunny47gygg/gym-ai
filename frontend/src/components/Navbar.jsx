@@ -4,9 +4,9 @@ import { Dumbbell } from "lucide-react"
 function Navbar() {
   return (
     <section className="bg-black border-b border-gray-600">
-      <div className="max-w-7xl mx-auto pl-7 py-5">
+      <div className="max-w-7xl mx-auto py-5">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 ml-6">
             <Dumbbell className="text-3xl text-lime-400"/>
             <p className="font-semibold text-xl">RepCoach AI</p>
           </div>
