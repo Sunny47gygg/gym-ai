@@ -55,7 +55,7 @@ function Signup() {
             </div>
             <h1 className="text-3xl font-bold text-white">Create account</h1>
             <p className="mt-2 text-sm leading-6 text-zinc-400">
-              Start building your personalized GymAI plan.
+              Start building your personalized RepCoach AI plan.
             </p>
           </div>
 

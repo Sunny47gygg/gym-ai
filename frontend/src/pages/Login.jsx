@@ -53,7 +53,7 @@ function Login() {
             </div>
             <h1 className="text-3xl font-bold text-white">Welcome back</h1>
             <p className="mt-2 text-sm leading-6 text-zinc-400">
-              Sign in to continue your GymAI training plan.
+              Sign in to continue your RepCoach AI training plan.
             </p>
           </div>
 
@@ -107,7 +107,7 @@ function Login() {
           </button>
 
           <p className="mt-6 text-center text-sm text-zinc-400">
-            New to GymAI?{" "}
+            New to RepCoach AI?{" "}
             <button
               type="button"
               onClick={() => navigate("/signup")}

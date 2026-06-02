@@ -201,7 +201,7 @@ function Dashboard() {
         <div className="mx-auto flex max-w-7xl items-center justify-between py-5">
           <div className="flex items-center gap-2">
             <Dumbbell className="h-8 w-8 text-lime-400" />
-            <p className="text-xl font-semibold">GymAI</p>
+            <p className="text-xl font-semibold">RepCoach AI</p>
           </div>
 
           <ProfileCard />

@@ -118,7 +118,7 @@ function Onboarding() {
         <div className="mx-auto flex max-w-7xl items-center justify-between py-5">
           <div className="flex items-center gap-2">
             <Dumbbell className="h-8 w-8 text-lime-400" />
-            <p className="text-xl font-semibold">GymAI</p>
+            <p className="text-xl font-semibold">RepCoach AI</p>
           </div>
 
           <ProfileCard subtitle="Setup in progress" />
@@ -150,7 +150,7 @@ function Onboarding() {
             </div>
             <h1 className="text-3xl font-bold text-white">Build your profile</h1>
             <p className="mt-2 text-sm leading-6 text-zinc-400">
-              Tell GymAI about your body, goals, and training style. Then we will generate your plan.
+              Tell RepCoach AI about your body, goals, and training style. Then we will generate your plan.
             </p>
           </div>
 
@@ -339,7 +339,7 @@ function Onboarding() {
                   })}
                 </div>
                 <p className="mt-3 text-xs leading-5 text-zinc-500">
-                  Select all that apply so GymAI can avoid risky movements.
+                  Select all that apply so RepCoach AI can avoid risky movements.
                 </p>
               </div>
             </div>
