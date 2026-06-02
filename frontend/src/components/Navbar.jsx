@@ -4,7 +4,7 @@ import { Dumbbell } from "lucide-react"
 function Navbar() {
   return (
     <section className="bg-black border-b border-gray-600">
-      <div className="max-w-7xl mx-auto px-6 py-5">
+      <div className="max-w-7xl mx-auto pl-7 py-5">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Dumbbell className="text-3xl text-lime-400"/>
