@@ -6,11 +6,11 @@ function Navbar() {
     <section className="bg-black border-b border-gray-600">
       <div className="max-w-7xl mx-auto py-5">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2 ml-5">
+          <div className="flex items-center gap-2 ml-3">
             <Dumbbell className="text-3xl text-lime-400"/>
             <p className="font-semibold text-xl">RepCoach AI</p>
           </div>
-          <div className="pr-7">
+          <div className="pr-5">
             <Link to="/login" className="mr-9 cursor-pointer text-white hover:text-lime-400">
               Sign In
             </Link>
